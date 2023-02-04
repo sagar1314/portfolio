@@ -1,0 +1,82 @@
+#service{
+  color: white;
+  background-color: #1f1f38;
+  padding-bottom: 50px;
+}
+
+.services{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.service-data{
+  width: 23%;
+  height: 100%;
+  background-color: #2c2c6c;
+  border-radius:0 0 20px 20px;
+  margin: 20px;
+  box-shadow: 1px 1px 1px #4db5ff, -1px -1px 1px #4db5ff;
+}
+.service-data .x{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.service-data .fa-check{
+  margin: 7px 10px 7px 20px;
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.serv-details{
+  margin: 20px 0;
+}
+.serv-details p{
+  font-size: 16px;
+  width: 85%;
+}
+.serv{
+  height: 70px;
+  background-color: #4db5ff;
+  border-radius:0 0 20px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+#service{
+padding-top: 100px;
+}
+
+
+
+@media (min-width:1030px)and (max-width:1400px) {
+  .service-data{
+    width: 35%;
+    height: 100%;
+  }
+}
+
+
+@media (min-width:700px)and (max-width:1030px) {
+  .service-data{
+    width: 42%;
+    margin: 10px;
+    height: 100%;
+  }
+}
+
+@media (min-width:430px)and (max-width:700px) {
+  .service-data{
+    width: 75%;
+    margin: 10px;
+    height: 100%;
+  }
+}
+
+@media (min-width:0px)and (max-width:430px) {
+  .service-data{
+    width: 90%;
+    margin: 10px;
+    height: 100%;
+  }
+}

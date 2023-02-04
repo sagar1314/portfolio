@@ -1,0 +1,150 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1b2760;
+  padding: 10px;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navigation h1 {
+  font-size: 35px;
+  color: #ff703b;
+  padding-left: 50px;
+}
+
+.navigation ul {
+  display: inline-flex;
+  width: 100%;
+  justify-content: flex-end;
+  margin: 0;
+}
+
+ a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 15px;
+}
+
+ a:hover {
+  background-color: #f6642e;
+  border-radius: 5px;
+}
+
+.navigation li a:active {
+  color: black;
+}
+
+.fa-bars{
+  display: none;
+  color: white;
+  margin-right: 20px;
+}
+#navmenu1{
+  display: none;
+}
+
+.navbar-brand{
+  color: #f6642e;
+  font-size: 32px;
+  font-weight: 500;
+}
+.navbar{
+  background-color: #1b2760;
+  }
+.offcanvas{
+  background-color: #1b2760;
+}
+.offcanvas-body{
+  line-height: 8vh;
+  }
+  .offcanvas-header{
+    border-bottom: 1px solid #393d64;
+  }
+  .fa-house-user{
+    font-size: 30px;
+    color:aliceblue;
+  }
+.offcanvas-title{
+  color: #f6642e;
+}
+#offcanvasDarkNavbar{
+  width: 40%;
+}
+.navbar-nav li a{
+  display: inline;
+}
+
+
+
+
+
+
+
+@media (min-width:700px)and (max-width:1030px) {
+  *{
+    font-size: 20px;
+  }
+.navigation ul{
+  display: none;
+}
+#home span{
+  font-size: 50px;
+}
+.fa-bars{
+  display: inline-block;
+  font-size: 35px;
+}
+.navigation{
+  display: none;
+}
+#navmenu1{
+  display: inline;
+}
+}
+
+@media (min-width:430px)and (max-width:700px) {
+  .navigation ul{
+    display: none;
+  }
+  .fa-bars{
+    display: inline-block;
+    font-size: 35px;
+  }
+  .navigation h1{
+    padding-left: 10px;
+  }
+  .navigation{
+    display: none;
+  }
+  #navmenu1{
+    display: inline;
+  }
+  #offcanvasDarkNavbar{
+    width: 50%;
+  }
+  }
+
+@media (min-width:0px)and (max-width:430px) {
+  .navigation ul{
+    display: none;
+  }
+  .fa-bars{
+    display: inline-block;
+    font-size: 40px;
+  }
+ .navigation h1{
+    padding-left: 10px;
+  }
+  .navigation{
+    display: none;
+  }
+  #navmenu1{
+    display: inline;
+  }
+  #offcanvasDarkNavbar{
+    width: 70%;
+  }
+}

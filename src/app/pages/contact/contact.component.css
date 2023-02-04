@@ -1,0 +1,136 @@
+#contact{
+  color: white;
+  background-color: #1f1f38;
+}
+
+
+.cont-container{
+  background-color: #2c2c6c;
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 2vh;
+  border-radius: 15px;
+  margin: 15px;
+}
+.cont-container span{
+  color:#4286f0;
+}
+.cont-container p a{
+  text-decoration: none;
+  color: #fff;
+}
+.y{
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.main-contact input{
+    padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 6px;
+  color: white;
+  background-color:#1f1f38;
+  border: 1px solid #7676b8;
+}
+.main-contact textarea{
+  padding: 10px 20px;
+  margin: 20px 0;
+  border-radius: 6px;
+  color: white;
+  background-color:#1f1f38;
+  border: 1px solid #7676b8;
+}
+.main-contact{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.contact-details{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin-left: 50px;
+}
+.contact-data{
+  width: 20%;
+}
+#contact{
+  padding-top: 100px;
+}
+.buttons{
+  width: 30%;
+  padding: 5px 0;
+  background-color: #4db5ff;
+  color: black;
+  border-radius: 6px;
+}
+
+
+@media (min-width:1030px)and (max-width:1400px) {
+
+  .contact-data{
+    width: 28%;
+  }
+  .contact-details{
+    width: 47%;
+  }
+}
+
+
+@media (min-width:700px)and (max-width:1030px) {
+  .cont-container{
+    margin-left: 0;
+  }
+  .contact-data{
+    width: 45%;
+  }
+  .contact-details{
+    width: 45%;
+    margin-left: 5px;
+  }
+  .buttons{
+    width: 50%;
+  }
+}
+
+@media (min-width:430px)and (max-width:700px) {
+  .contact-data{
+    width: 70%;
+  }
+  .contact-details{
+    width: 85%;
+    margin-left: 0;
+  }
+  .main-contact{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .buttons{
+    width: 43%;
+  }
+}
+
+@media (min-width:0px)and (max-width:430px) {
+  .contact-data{
+    width: 100%;
+  }
+  .contact-details{
+    width: 90%;
+    margin-left: 0;
+  }
+  .main-contact{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .buttons{
+    width: 54%;
+  }
+  p,a{
+    font-size: 18px;
+  }
+}
